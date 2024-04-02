@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="suite">
+
+    <listener>
+        <listener class-name="Listener2"></listener>
+    </listener>
+
+
+    <test name = "regression">
+        <classes>
+            <class name="HomeTest"></class>
+            <class name="CartTest"></class>
+            <class name="AlertTest"></class>
+            <class name="CategoryTest"></class>
+            <class name="iFrameTest"></class>
+            <class name="WindowTest"></class>
+
+
+
+        </classes>
+    </test>
+</suite>
